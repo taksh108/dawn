@@ -331,7 +331,7 @@ quick-order-list-remove-button .icon-remove {
     bottom: auto;
   }
 
-  .variant-item .loading-overlay--error {
+  .variant-item .loading__spinner--error {
     padding-top: 5rem;
   }
 
