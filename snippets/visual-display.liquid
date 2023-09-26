@@ -1,0 +1,11 @@
+{{ 'component-visual-display.css' | asset_url | stylesheet_tag }}
+<div class="visual-display visual-display--style-{{ style }} visual-display--size-{{ size }}">
+	{% case type %}
+		{% when "color" %}
+			<div class="visual-display__color" style="background-color: rgba({{ value.rgba }})"></div>
+		{% when "image" %}
+			{{ value | image_url: width:100 | image_tag: class: "visual-display__image" }}
+		{% else %}
+			Its nothing 2
+	{% endcase %}
+</div>

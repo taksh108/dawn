@@ -1780,6 +1780,18 @@
           },
           "info": "Drawer is the default mobile layout."
         },
+        "visual_filters_size": {
+          "label": "Visual filters layout",
+          "options__1": {
+            "label": "Small"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Large"
+          }
+        },
         "enable_sorting": {
           "label": "Enable sorting"
         },
