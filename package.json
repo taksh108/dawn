@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"watch:js": "esbuild app.js --bundle --outfile=assets/app.js --watch",
+		"build:js": "esbuild app.js --bundle --outfile=assets/app.js"
+	},
+	"dependencies": {
+		"spx": "0.1.2-beta.1",
+		"vite": "^4.4.9"
+	}
+}

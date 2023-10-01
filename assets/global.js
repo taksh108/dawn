@@ -362,6 +362,9 @@ class MenuDrawer extends HTMLElement {
     this.querySelectorAll('button:not(.localization-selector)').forEach((button) =>
       button.addEventListener('click', this.onCloseButtonClick.bind(this))
     );
+    this.querySelectorAll('a.list-menu__item.link').forEach((menuLink) =>
+      menuLink.addEventListener('click', this.onCloseButtonClick.bind(this))
+    );
   }
 
   onKeyUp(event) {
