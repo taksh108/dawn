@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Podijeli na Facebooku",
-        "share_on_twitter": "Tweetaj na Twitteru",
+        "share_on_twitter": "Podijeli na mreži X",
         "share_on_pinterest": "Prikvači na Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -210,7 +210,8 @@
       "clear_filter": "Ukloni filtar",
       "filter_selected_accessibility": "{{ type }} (broj odabranih filtra: {{ count }})",
       "show_more": "Prikaži više",
-      "show_less": "Prikaži manje"
+      "show_less": "Prikaži manje",
+      "filter_and_operator_subtitle": "Uskladi sve"
     }
   },
   "templates": {
@@ -369,14 +370,18 @@
       "total_items": "Ukupni broj artikala",
       "remove_all_items_confirmation": "Želite li ukloniti sve artikle ({{ quantity }}) iz svoje košarice?",
       "remove_all": "Ukloni sve",
-      "cancel": "Odustani"
+      "cancel": "Odustani",
+      "remove_all_single_item_confirmation": "Želite li ukloniti 1 artikl iz košarice?"
     }
   },
   "localization": {
     "country_label": "Država/regija",
     "language_label": "Jezik",
     "update_language": "Ažuriraj jezik",
-    "update_country": "Ažuriraj državu/regiju"
+    "update_country": "Ažuriraj državu/regiju",
+    "search": "Traži",
+    "popular_countries_regions": "Popularne zemlje/regije",
+    "country_results_count": "Pronađen je sljedeći broj zemalja/regija: {{ count }}"
   },
   "customer": {
     "account": {

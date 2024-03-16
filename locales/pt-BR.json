@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Compartilhar no Facebook",
-        "share_on_twitter": "Tuitar",
+        "share_on_twitter": "Compartilhar no X",
         "share_on_pinterest": "Incluir como pin no Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -210,7 +210,8 @@
       "clear_filter": "Remover filtro",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtros selecionados)",
       "show_more": "Exibir mais",
-      "show_less": "Exibir menos"
+      "show_less": "Exibir menos",
+      "filter_and_operator_subtitle": "Corresponder todos"
     }
   },
   "templates": {
@@ -369,14 +370,18 @@
       "total_items": "Total de itens",
       "remove_all_items_confirmation": "Remover todos os {{ quantity }} itens do carrinho?",
       "remove_all": "Remover tudo",
-      "cancel": "Cancelar"
+      "cancel": "Cancelar",
+      "remove_all_single_item_confirmation": "Remover 1 item do carrinho?"
     }
   },
   "localization": {
     "country_label": "País/Região",
     "language_label": "Idioma",
     "update_language": "Atualizar idioma",
-    "update_country": "Atualizar país/região"
+    "update_country": "Atualizar país/região",
+    "search": "Pesquisar",
+    "popular_countries_regions": "Países/regiões populares",
+    "country_results_count": "{{ count }} países/regiões encontrados"
   },
   "customer": {
     "account": {

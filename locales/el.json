@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Κοινοποίηση στο Facebook",
-        "share_on_twitter": "Tweet στο Twitter",
+        "share_on_twitter": "Κοινοποίηση στο X",
         "share_on_pinterest": "Καρφίτσωμα στο Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -206,7 +206,8 @@
       "clear_filter": "Κατάργηση φίλτρου",
       "filter_selected_accessibility": "{{ type }} (επιλέχθηκαν {{ count }} φίλτρα)",
       "show_more": "Εμφάνιση περισσότερων",
-      "show_less": "Εμφάνιση λιγότερων"
+      "show_less": "Εμφάνιση λιγότερων",
+      "filter_and_operator_subtitle": "Αντιστοιχεί με όλα"
     }
   },
   "templates": {
@@ -357,14 +358,18 @@
       "total_items": "Σύνολο προϊόντων",
       "remove_all_items_confirmation": "Να καταργηθούν και τα {{ quantity }} προϊόντα από το καλάθι σας;",
       "remove_all": "Κατάργηση όλων",
-      "cancel": "Ακύρωση"
+      "cancel": "Ακύρωση",
+      "remove_all_single_item_confirmation": "Να καταργηθεί 1 προϊόν από το καλάθι σας;"
     }
   },
   "localization": {
     "country_label": "Χώρα/περιοχή",
     "language_label": "Γλώσσα",
     "update_language": "Ενημέρωση γλώσσας",
-    "update_country": "Ενημερώστε τη χώρα/περιοχή"
+    "update_country": "Ενημερώστε τη χώρα/περιοχή",
+    "search": "Αναζήτηση",
+    "popular_countries_regions": "Δημοφιλείς χώρες/περιοχές",
+    "country_results_count": "Βρέθηκαν {{ count }} χώρες/περιοχές"
   },
   "customer": {
     "account": {

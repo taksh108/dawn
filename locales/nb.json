@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Del på Facebook",
-        "share_on_twitter": "Tweet på Twitter",
+        "share_on_twitter": "Del på X",
         "share_on_pinterest": "Pin på Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -206,7 +206,8 @@
       "clear_filter": "Fjern filter",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtre valgt)",
       "show_more": "Vis mer",
-      "show_less": "Vis færre"
+      "show_less": "Vis færre",
+      "filter_and_operator_subtitle": "Match alle"
     }
   },
   "templates": {
@@ -357,14 +358,18 @@
       "total_items": "Totalt antall varer",
       "remove_all_items_confirmation": "Vil du fjerne alle {{ quantity }} varer fra handlekurven?",
       "remove_all": "Fjern alle",
-      "cancel": "Avbryt"
+      "cancel": "Avbryt",
+      "remove_all_single_item_confirmation": "Vil du fjerne én vare fra handlekurven?"
     }
   },
   "localization": {
     "country_label": "Land/region",
     "language_label": "Språk",
     "update_language": "Oppdater språk",
-    "update_country": "Oppdater land/region"
+    "update_country": "Oppdater land/region",
+    "search": "Søk",
+    "popular_countries_regions": "Populære land/regioner",
+    "country_results_count": "{{ count }} land/regioner funnet"
   },
   "customer": {
     "account": {

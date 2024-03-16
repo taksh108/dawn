@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Condividi su Facebook",
-        "share_on_twitter": "Twitta su Twitter",
+        "share_on_twitter": "Condividi su X",
         "share_on_pinterest": "Aggiungi un pin su Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -210,7 +210,8 @@
       "clear_filter": "Rimuovi filtri",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtri selezionati)",
       "show_more": "Mostra di più",
-      "show_less": "Mostra di meno"
+      "show_less": "Mostra di meno",
+      "filter_and_operator_subtitle": "Seleziona tutte"
     }
   },
   "templates": {
@@ -369,14 +370,18 @@
       "total_items": "Articoli totali",
       "remove_all_items_confirmation": "Rimuovere tutti i {{ quantity }} articoli dal tuo carrello?",
       "remove_all": "Rimuovi tutto",
-      "cancel": "Annulla"
+      "cancel": "Annulla",
+      "remove_all_single_item_confirmation": "Rimuovere un articolo dal carrello?"
     }
   },
   "localization": {
     "country_label": "Paese/Area geografica",
     "language_label": "Lingua",
     "update_language": "Aggiorna lingua",
-    "update_country": "Aggiorna paese/area geografica"
+    "update_country": "Aggiorna paese/area geografica",
+    "search": "Cerca",
+    "popular_countries_regions": "Paesi/aree geografiche popolari",
+    "country_results_count": "{{ count }} paesi/aree geografiche trovati"
   },
   "customer": {
     "account": {

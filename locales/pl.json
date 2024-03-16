@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Udostępnij na Facebooku",
-        "share_on_twitter": "Tweetuj na Twitterze",
+        "share_on_twitter": "Udostępnij na platformie X",
         "share_on_pinterest": "Przypnij do tablicy Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -214,7 +214,8 @@
       "clear_filter": "Usuń filtr",
       "filter_selected_accessibility": "{{ type }} (wybrano {{ count }} fitry(-ów))",
       "show_more": "Pokaż więcej",
-      "show_less": "Pokaż mniej"
+      "show_less": "Pokaż mniej",
+      "filter_and_operator_subtitle": "Dopasuj wszystko"
     }
   },
   "templates": {
@@ -381,14 +382,18 @@
       "total_items": "Pozycje łącznie",
       "remove_all_items_confirmation": "Usunąć wszystkie {{ quantity }} pozycje(-i) z koszyka?",
       "remove_all": "Usuń wszystko",
-      "cancel": "Anuluj"
+      "cancel": "Anuluj",
+      "remove_all_single_item_confirmation": "Czy usunąć 1 pozycję z Twojego koszyka?"
     }
   },
   "localization": {
     "country_label": "Kraj/region",
     "language_label": "Język",
     "update_language": "Aktualizuj język",
-    "update_country": "Aktualizuj kraj/region"
+    "update_country": "Aktualizuj kraj/region",
+    "search": "Szukaj",
+    "popular_countries_regions": "Popularne kraje/regiony",
+    "country_results_count": "Liczba znalezionych krajów/regionów: {{ count }}"
   },
   "customer": {
     "account": {

@@ -13,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "แชร์ใน Facebook",
-        "share_on_twitter": "ทวีตใน Twitter",
+        "share_on_twitter": "แชร์บน X",
         "share_on_pinterest": "ปักหมุดบน Pinterest"
       },
       "links": {
-        "twitter": "Twitter",
+        "twitter": "X (Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -206,7 +206,8 @@
       "clear_filter": "ลบตัวกรองออก",
       "filter_selected_accessibility": "{{ type }} (เลือกตัวกรองแล้ว {{ count }} รายการ)",
       "show_more": "แสดงมากขึ้น",
-      "show_less": "แสดงน้อยลง"
+      "show_less": "แสดงน้อยลง",
+      "filter_and_operator_subtitle": "ที่ตรงกันทั้งหมด"
     }
   },
   "templates": {
@@ -357,14 +358,18 @@
       "total_items": "รายการสินค้าทั้งหมด",
       "remove_all_items_confirmation": "ต้องการลบสินค้าทั้งหมด {{ quantity }} รายการออกจากตะกร้าสินค้าหรือไม่",
       "remove_all": "ลบออกทั้งหมด",
-      "cancel": "ยกเลิก"
+      "cancel": "ยกเลิก",
+      "remove_all_single_item_confirmation": "ต้องการลบ 1 รายการออกจากตะกร้าสินค้าหรือไม่"
     }
   },
   "localization": {
     "country_label": "ประเทศ/ภูมิภาค",
     "language_label": "ภาษา",
     "update_language": "อัปเดตภาษา",
-    "update_country": "อัปเดตประเทศ/ภูมิภาค"
+    "update_country": "อัปเดตประเทศ/ภูมิภาค",
+    "search": "ค้นหา",
+    "popular_countries_regions": "ประเทศ/ภูมิภาคยอดนิยม",
+    "country_results_count": "พบประเทศ/ภูมิภาค {{ count }} แห่ง"
   },
   "customer": {
     "account": {
